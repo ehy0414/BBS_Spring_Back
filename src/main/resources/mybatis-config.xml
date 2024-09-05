@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0/EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <typeAliases>
+
+        <typeAlias alias="bbsResponseDTO" type="react.spring.react_spring_pjt.bbs.domain.BbsResponseDTO"/>
+        <typeAlias alias="bbsRequestDTO" type="react.spring.react_spring_pjt.bbs.domain.BbsRequestDTO"/>
+        <typeAlias alias="commentRequestDTO" type="react.spring.react_spring_pjt.bbs.domain.comment.CommentRequestDTO"/>
+        <typeAlias alias="commentResponseDTO" type="react.spring.react_spring_pjt.bbs.domain.comment.CommentResponseDTO"/>
+    
+    </typeAliases>
+</configuration>
